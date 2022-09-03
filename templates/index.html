@@ -66,16 +66,16 @@
 
     <div class="container" id="addDeleteContainer">
       <div class="d-table-cell w-100">
-          <button class="btn" onclick=addColumn() id="addColumnButton"><i class="gg-add-r"></i></button>
+          <button type="button" class="btn" onclick=addColumn() id="addColumnButton"><i class="gg-add-r"></i></button>
       </div>
        <div class="d-table-cell align-middle">
-        <button class="btn" onclick=deleteLastColumn() id="deleteColumnButton"><i class="gg-remove-r"></i></button>
+        <button type="button" class="btn" onclick=deleteLastColumn() id="deleteColumnButton"><i class="gg-remove-r"></i></button>
       </div>
     </div>
     <br>
     <input type="submit" value="Generate query" />
   </form>
   {% if result %}
-  <div class="result">{{ result }}</div>
+  <div class="result" contenteditable="true">{{ result }}</div>
   {% endif %}
 </body>

@@ -1,3 +1,4 @@
 ## Description
 
-instaSchema uses gpt3 to generate raw MySQL schemas into text.
+instaSchema is a toy project to test how to quickly generate MySQL schemas
+with GPT3. 
